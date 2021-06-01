@@ -1,0 +1,42 @@
+Debugging:
+
+To fix an issue in code.
+
+DO NOT PANIC.Debugging is normal part of programming
+
+Programmer spend more time on fixing bugs rather than writing codes
+
+Console: Right Click, Inspect or Press ctrl+shift+j
+
+Types:
+
+1. Typos
+Spelling mistake error. var xyz. but using that variable in the name xyx.Debugging
+
+2. Incorrect use of function
+To find out the area of  but you are just using that function
+to find out the area of triangle
+
+3. Using var outside their scope:
+Scope of variables
+    1. Global variable
+    2. Local variable
+    Where you call the variable matters
+
+4. Program is not behaving as per the expected
+
+Fixing:
+
+1.1. Typos
+Spelling mistake error. var xyz. but using that variable in the name xyx.Debugging
+
+Sol:
+Console, inspect it , it throw you which line
+
+2. Comment : Comment all lines.Uncomment step by step
+
+3. Console.log(var name);
+
+4. function restart(){
+    console.log("Working");
+}
